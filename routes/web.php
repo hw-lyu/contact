@@ -14,6 +14,14 @@ use App\Http\Controllers\ContactControllers;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+/**
+ * 메인
+ */
+Route::get('/', function() {
+    return redirect('contact');
+});
+
 /**
  * 목록
  */
